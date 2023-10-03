@@ -1,5 +1,3 @@
-
-
 def make_markov_model(cleaned_stories, n_gram=2):
     markov_model = {}
     for i in range(len(cleaned_stories)-n_gram-1):
