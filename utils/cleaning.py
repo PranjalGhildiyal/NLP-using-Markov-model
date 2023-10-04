@@ -3,7 +3,8 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 nltk.download('punkt')
 import re
-def cleaning(stories):
+
+def clean(stories):
     cleaned_stories= []
     for line in stories:
         line= line.lower()
